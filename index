@@ -1,0 +1,61 @@
+
+import numpy as np 
+import matplotlib.pyplot as plt
+import pandas as pd 
+import seaborn as sns
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+#retrieve data from csv to plot
+data = pd.read_csv('../input/suicides-in-india/Suicides in India 2001-2012.csv')
+
+#STATE:
+#total suicides grouped by state
+state_gr = data.groupby('State')['Total'].sum()
+
+#organize data set
+totals_state = pd.DataFrame(state_gr).reset_index().sort_values('Total',ascending=False)
+
+#extracts misc. data 
+totals_state = totals_state[2:]
+
+#plot values
+plt.figure(figsize=(12,8))
+ax = sns.barplot(x="State", y="Total", data=totals_state)
+ax.set_xticklabels(ax.get_xticklabels(), rotation = 90)
+
+
+#AGE:
+#total suicides grouped by age group
+age_gr = data.groupby('Age_group')['Total'].sum()
+
+#organize data set
+totals_age= pd.DataFrame(age_gr).reset_index()
+
+#extracts misc. data 
+totals_age = totals_age[1:]
+
+#plot values
+plt.figure(figsize=(12,8))
+ax = sns.barplot(x="Age_group", y="Total", data=totals_age)
+ax.set_xticklabels(ax.get_xticklabels(), rotation = 0)
+
+
+
+#GENDER
+#total suicides grouped by gender
+gender_gr = data.groupby('Gender')['Total'].sum()
+
+#organize data set
+totals_gr= pd.DataFrame(gender_gr).reset_index()
+
+#plot values
+plt.figure(figsize=(12,8))
+ax = sns.barplot(x="Gender", y="Total", data=totals_gr)
+ax.set_xticklabels(ax.get_xticklabels(), rotation = 0)
+
+#SHOW GRAPH
+plt.show()
