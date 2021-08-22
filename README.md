@@ -12,7 +12,7 @@ SUICIDE PREVENTION DIRECTORY (IN): http://www.aasra.info/helpline.html
 This is a beginner project using Python to delve into data visualization. 
 
 ABOUT:
-Mental health in India is a serious issue amongst different. From different regions, age groups, and genders, the issue of mental health has affected people of different 
+Mental health in India is a serious issue. From different regions, age groups, and genders, the issue of mental health has affected people of different 
 backgrounds. I've decided to visualize data sourced from Kaggle in order to bring light to this serious issue and understand it's fatal effects. 
 
 BUILT WITH:
