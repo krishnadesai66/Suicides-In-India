@@ -8,6 +8,7 @@ SUICIDE HOTLINE (IN): 91-9820466726
 
 SUICIDE PREVENTION DIRECTORY (IN): http://www.aasra.info/helpline.html
 
+
 This is a beginner project using Python to delve into data visualization. 
 
 ABOUT:
@@ -32,3 +33,5 @@ from 15-29 and 30-44 were taken by suicide more than any age group from 0-60+. M
 CONTACT: 
 https://github.com/krishnadesai66/Suicides-In-India---Beginner-Project/
 krishnasdesai6@gmail.com
+
+Help is always here.  If you or anyone you know is experiencing suicidal thoughts, please visit the hotlines provided above. 
