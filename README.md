@@ -2,12 +2,12 @@
 This is a beginner project using Python to delve into data visualization. 
 
 ABOUT:
-Mental health in India is a serious issue amongst different. From different regions, to age groups, to gender, the issue of mental health has affected people of different 
-backgrounds. I've decided to visualize  data sourced from Kaggle in order to bring light to this serious issue and understand it's widespread effects. 
+Mental health in India is a serious issue amongst different. From different regions, age groups, and genders, the issue of mental health has affected people of different 
+backgrounds. I've decided to visualize data sourced from Kaggle in order to bring light to this serious issue and understand it's fatal effects. 
 
 BUILT WITH:
 - [Kaggle Data Set](https://www.kaggle.com/rajanand/suicides-in-india)
-- [Python] (https://www.python.org/about/)
+- [Python](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Seaborn](https://seaborn.pydata.org/)
