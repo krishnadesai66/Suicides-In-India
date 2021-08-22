@@ -29,10 +29,11 @@ through online resources to learn how to plot data.
 USAGE/CONCLUSION:
 This project can help visualize the serious impacts of mental health. Lives were taken by suicide the highest in Maharashtra, West Bengal, and Tamil Nadu. Age groups
 from 15-29 and 30-44 were taken by suicide more than any age group from 0-60+. Males lives were taken by suicide more than females. 
-*Results are found under ageres.PNG , stateres.PNG, and genderres.PNG
+*Results are found under ageres.PNG , stateres.PNG, and genderres.PNG*
 
 CONTACT: 
 https://github.com/krishnadesai66/Suicides-In-India---Beginner-Project/
-krishnasdesai6@gmail.com
+
+Email: krishnasdesai6@gmail.com
 
 Help is always here.  If you or anyone you know is experiencing suicidal thoughts, please visit the hotlines provided above. 
