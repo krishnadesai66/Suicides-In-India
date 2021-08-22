@@ -1,4 +1,11 @@
 # Suicides-In-India---Beginner-Project
+
+SUICIDE HOTLINE (US): 1-800-273-8255
+NATIONAL SUICIDE PREVENTION LIFELINE (US): https://suicidepreventionlifeline.org/
+
+SUICIDE HOTLINE (IN): 91-9820466726 
+SUICIDE PREVENTION DIRECTORY (IN): http://www.aasra.info/helpline.html
+
 This is a beginner project using Python to delve into data visualization. 
 
 ABOUT:
