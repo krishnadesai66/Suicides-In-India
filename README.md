@@ -60,7 +60,6 @@ CONTACT:
 
 https://github.com/krishnadesai66/Suicides-In-India---Beginner-Project/
 
-Email: krishnasdesai6@gmail.com
 
 _______________________________________________________________________________________________________
 
